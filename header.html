@@ -1,0 +1,68 @@
+
+<nav class="navbar navbar-inverse" role="navigation">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><b><span class="glyphicon glyphicon-retweet"></span> Twitter API </b></a>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse"
+			id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-book"></span> Contract <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li class="dropdown-submenu">
+							<a href="#"><span class="glyphicon glyphicon-list-alt"></span> Followers</a>
+							<ul class="dropdown-menu">
+			                        <li><a href="v1/contract/followers/ids/json"  target="_blank"><span class="glyphicon glyphicon-list-alt"></span> Id's</a></li>
+			                        <li><a href="v1/contract/followers/list/json"  target="_blank"><span class="glyphicon glyphicon-list-alt"></span> List</a></li>
+			                    </ul>
+						</li>
+						<li class="dropdown-submenu">
+							<a href="#"><span class="glyphicon glyphicon-list-alt"></span> Friends</a>
+							<ul class="dropdown-menu">
+			                        <li><a href="v1/contract/friends/ids/json"  target="_blank"><span class="glyphicon glyphicon-list-alt"></span> Id's</a></li>
+			                        <li><a href="v1/contract/friends/list/json"  target="_blank"s><span class="glyphicon glyphicon-list-alt"></span> List</a></li>
+			                    </ul>
+						</li>
+						<li class="dropdown-submenu">
+							<a href="#"><span class="glyphicon glyphicon-list-alt"></span> Users</a>
+							<ul class="dropdown-menu">
+			                        <li><a href="v1/contract/users/show/json"  target="_blank"><span class="glyphicon glyphicon-list-alt"></span> Show</a></li>
+			                        <li><a href="v1/contract/users/status/json"  target="_blank"s><span class="glyphicon glyphicon-list-alt"></span> Status</a></li>
+			                    </ul>
+						</li>
+						<li><a href="v1/contract/statuses/user_timeline/json" target="_blank"><span class="glyphicon glyphicon-list-alt"></span> User TimeLine</a></li>
+						<li><a href="v1/contract/statuses/home_timeline/json" target="_blank"><span class="glyphicon glyphicon-list-alt"></span> Home TimeLine</a></li>
+						<li><a href="v1/contract/status/update/json" target="_blank"><span class="glyphicon glyphicon-list-alt"></span> Status Update</a></li>
+					</ul>
+				</li>
+				
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-book"></span> Document <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="v1/application.wadl" target="_blank"><span class="glyphicon glyphicon-list-alt"></span> Application WADL</a></li>
+						<li><a href="v1/swagger/document.json" target="_blank"><span class="glyphicon glyphicon-list-alt"></span> Swagger</a></li>
+					</ul>
+				</li>
+			</ul>
+			<p class="navbar-right" style="margin: 10px 10px 10px">
+                  <span >
+                	  <a  href="./v1/oauth/authorize"   class="btn btn-info btn-sm" role="button">
+                		  <span class="glyphicon glyphicon-retweet"></span> Connect to Twitter
+                	  </a>
+                  </span>
+             </p>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container -->
+</nav>
